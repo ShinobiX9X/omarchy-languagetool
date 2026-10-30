@@ -495,7 +495,7 @@ Item {
               text: root.state_ === "ready" && root.matches.length > 0
                 ? GC.highlight(root.working, root.matches, root.current, String(root.errorColor), String(root.selectedText))
                 : (root.working || root.statusText)
-              color: root.working ? root.foreground : root.mutedColor
+              color: root.working ? root.foreground : root.state_ === "error" ? root.errorColor : root.mutedColor
               font.family: root.fontFamily
               font.pixelSize: Style.font.subtitle
               wrapMode: Text.Wrap
