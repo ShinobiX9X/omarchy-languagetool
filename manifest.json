@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.shinobix9x.languagetool",
+  "name": "Grammar check (LanguageTool)",
+  "version": "1.0.0",
+  "author": "ShinobiX9X",
+  "license": "MIT",
+  "description": "Check the selected text with LanguageTool (free or Premium), apply suggestions and paste the result back. Unofficial.",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "GrammarCheck.qml"
+  }
+}
