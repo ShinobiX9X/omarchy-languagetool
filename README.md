@@ -24,6 +24,16 @@ o.bind("SUPER + ALT + L", "Grammar check", "omarchy-shell shell toggle io.github
 
 Needs `wl-clipboard` and `wtype` (both ship with Omarchy).
 
+## Remove
+
+```bash
+omarchy plugin remove io.github.shinobix9x.languagetool
+```
+
+Then delete the shortcut line from `~/.config/hypr/bindings.lua`, and
+`~/.config/languagetool/credentials` if you created it. The plugin writes no
+other files.
+
 ## Use
 
 Select text, press the shortcut.
